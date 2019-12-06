@@ -24,7 +24,7 @@ def createRotationDict(rot, alphabet):
 			i = i-len(alphabet)
 		alphabet_rotated.append(alphabet[i+rot])
 
-	rotationDictionary = {alphabet[i]:alphabet_rotated[i] for i in range(len(alphabet))}
+	rotationDictionary = dict(zip(alphabet,alphabet_rotated))
 	rotationDictionary.update(special_characters)
 
 	return rotationDictionary
