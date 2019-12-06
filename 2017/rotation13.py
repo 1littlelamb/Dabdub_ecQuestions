@@ -1,6 +1,6 @@
 #Roatation 13 Encode/Decode
 
-with open('encoded_message.txt', 'r') as myfile:
+with open('text_files/encoded_message.txt', 'r') as myfile:
   message = myfile.read()
 
 alphabet = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']

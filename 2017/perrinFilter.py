@@ -5,7 +5,7 @@ import numpy as np
 from perrinCalc import p
 from tqdm import tqdm
 
-a = open('numbers.txt', 'r').read()
+a = open('text_files/numbers.txt', 'r').read()
 
 list_original = np.array([int(s) for s in a.split(' ')])
 
