@@ -1,0 +1,5 @@
+you got to be effing kidding me. the perrin pages will help you find your calling, but do not be duped. cut down the woods they be erdos. text me i am making contact at the following number:albeniz dot eng  dot uci dot edu forward slash 314 dot html
+
+your solution must include at least 3 functions written in matlab by you: the rot-13 encryptor/decryptor, a function that generates perrin numbers and a function that generates erdos-woods numbers. email them to me after you have texted me. extra credit is given to the first person who texts me and who emailed me the right code.
+
+good luck!
