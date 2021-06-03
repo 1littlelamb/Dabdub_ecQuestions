@@ -14,7 +14,9 @@ howMany = input('\n' + 'How many Erdos-Woods numbers would you like to find? ' +
 				'NOTICE: THIS ALGORITHM REQUIRES A LARGE AMOUNT OF COMPUTE POWER!' + '\n' + '\n' +\
 				'Enter the number here: ')
 
-for i in range(int(howMany)):
+erdos_nums = []
+
+while len(erdos_nums) < int(howMany):
 	for k in tqdm(range(24)):
 
 		if k < 2:
@@ -40,4 +42,5 @@ for i in range(int(howMany)):
 
 			if all(any(elem in primes_master for elem in primeFactorization(i)) for i in a_list[1:-1]):
 				print(f'Erdos-Woods found: k={k} a={a}')
+				erdos_nums.append(k)
 				break
